@@ -17,3 +17,9 @@ class LeaderboardController(
         gameResultService.getGameResults().sortedWith(compareByDescending<GameResult>{ it.score }. thenBy { it.timeInSeconds })
 
 }
+
+
+
+
+
+
